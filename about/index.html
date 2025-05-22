@@ -482,21 +482,21 @@
                     <div class="post-statis col l4 hide-on-med-and-down" data-aos="zoom-in-right">
                         
 <div class="statis">
-    <span class="count"><a href="/">6</a></span>
+    <span class="count"><a href="/">19</a></span>
     <span class="name">文章</span>
 </div>
 
 
 
 <div class="statis">
-    <span class="count"><a href="/categories">1</a></span>
+    <span class="count"><a href="/categories">17</a></span>
     <span class="name">分类</span>
 </div>
 
 
 
 <div class="statis">
-    <span class="count"><a href="/tags">5</a></span>
+    <span class="count"><a href="/tags">27</a></span>
     <span class="name">标签</span>
 </div>
 
@@ -512,21 +512,21 @@
                                 <div class="post-statis hide-on-large-only" data-aos="zoom-in-right">
                                     
 <div class="statis">
-    <span class="count"><a href="/">6</a></span>
+    <span class="count"><a href="/">19</a></span>
     <span class="name">文章</span>
 </div>
 
 
 
 <div class="statis">
-    <span class="count"><a href="/categories">1</a></span>
+    <span class="count"><a href="/categories">17</a></span>
     <span class="name">分类</span>
 </div>
 
 
 
 <div class="statis">
-    <span class="count"><a href="/tags">5</a></span>
+    <span class="count"><a href="/tags">27</a></span>
     <span class="name">标签</span>
 </div>
 
@@ -660,7 +660,7 @@
         },
         xAxis: {
             type: 'category',
-            data: ["2023-06","2023-07","2023-08","2023-09","2023-10","2023-11","2023-12","2024-01","2024-02","2024-03","2024-04","2024-05","2024-06"]
+            data: ["2024-05","2024-06","2024-07","2024-08","2024-09","2024-10","2024-11","2024-12","2025-01","2025-02","2025-03","2025-04","2025-05"]
         },
         yAxis: {
             type: 'value',
@@ -670,7 +670,7 @@
                 name: '文章篇数',
                 type: 'line',
                 color: ['#6772e5'],
-                data: [0,0,0,1,0,0,1,2,0,0,0,0,1],
+                data: [0,10,0,0,0,0,0,0,0,0,0,0,4],
                 markPoint: {
                     symbolSize: 45,
                     color: ['#fa755a','#3ecf8e','#82d3f4'],
@@ -712,7 +712,7 @@
                 type: 'pie',
                 radius: '50%',
                 color: ['#6772e5', '#ff9e0f', '#fa755a', '#3ecf8e', '#82d3f4', '#ab47bc', '#525f7f', '#f51c47', '#26A69A'],
-                data: [{"name":"Share","value":2}],
+                data: [{"name":"编程语言","value":4},{"name":"系统与运维","value":5},{"name":"软件工具","value":3},{"name":"Workflow","value":2},{"name":"C++","value":3},{"name":"数据处理","value":4},{"name":"SSH/SFTP","value":2},{"name":"Java","value":1},{"name":"Git","value":1},{"name":"JetBrains Gateway","value":1},{"name":"Linux","value":1},{"name":"Tips","value":1},{"name":"代理工具","value":2},{"name":"Logseq","value":1},{"name":"Spark","value":2},{"name":"Hadoop","value":2},{"name":"VS Code","value":1}],
                 itemStyle: {
                     emphasis: {
                         shadowBlur: 10,
@@ -736,7 +736,7 @@
         xAxis: [
             {
                 type: 'category',
-                data: ["Spark","Logseq","Workflow","Git","Tips"]
+                data: ["Spark","错误排查","SSH","系统代理","集群部署","C++","SFTP","Mihomo","Hadoop","算法模板"]
             }
         ],
         yAxis: [
@@ -749,7 +749,7 @@
                 type: 'bar',
                 color: ['#82d3f4'],
                 barWidth : 18,
-                data: [2,1,1,1,1],
+                data: [6,5,4,4,4,3,3,3,3,2],
                 markPoint: {
                     symbolSize: 45,
                     data: [{
@@ -919,14 +919,44 @@
         <div class="tag-chips center-align">
             
             
-            <a href="/tags/Logseq/">
-                <span class="chip center-align waves-effect waves-light chip-default">Logseq</span>
+            <a href="/tags/C/">
+                <span class="chip center-align waves-effect waves-light chip-default">C++</span>
             </a>
             
             
             
-            <a href="/tags/Workflow/">
-                <span class="chip center-align waves-effect waves-light chip-default">Workflow</span>
+            <a href="/tags/STL/">
+                <span class="chip center-align waves-effect waves-light chip-default">STL</span>
+            </a>
+            
+            
+            
+            <a href="/tags/%E7%AE%97%E6%B3%95%E6%A8%A1%E6%9D%BF/">
+                <span class="chip center-align waves-effect waves-light chip-default">算法模板</span>
+            </a>
+            
+            
+            
+            <a href="/tags/SFTP/">
+                <span class="chip center-align waves-effect waves-light chip-default">SFTP</span>
+            </a>
+            
+            
+            
+            <a href="/tags/SSH/">
+                <span class="chip center-align waves-effect waves-light chip-default">SSH</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Mihomo/">
+                <span class="chip center-align waves-effect waves-light chip-default">Mihomo</span>
+            </a>
+            
+            
+            
+            <a href="/tags/%E7%B3%BB%E7%BB%9F%E4%BB%A3%E7%90%86/">
+                <span class="chip center-align waves-effect waves-light chip-default">系统代理</span>
             </a>
             
             
@@ -937,14 +967,112 @@
             
             
             
-            <a href="/tags/Spark/">
-                <span class="chip center-align waves-effect waves-light chip-default">Spark</span>
+            <a href="/tags/%E9%94%99%E8%AF%AF%E6%8E%92%E6%9F%A5/">
+                <span class="chip center-align waves-effect waves-light chip-default">错误排查</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Workflow/">
+                <span class="chip center-align waves-effect waves-light chip-default">Workflow</span>
             </a>
             
             
             
             <a href="/tags/Tips/">
                 <span class="chip center-align waves-effect waves-light chip-default">Tips</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Hadoop/">
+                <span class="chip center-align waves-effect waves-light chip-default">Hadoop</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Spark/">
+                <span class="chip center-align waves-effect waves-light chip-default">Spark</span>
+            </a>
+            
+            
+            
+            <a href="/tags/%E9%9B%86%E7%BE%A4%E9%83%A8%E7%BD%B2/">
+                <span class="chip center-align waves-effect waves-light chip-default">集群部署</span>
+            </a>
+            
+            
+            
+            <a href="/tags/%E8%B7%AF%E5%BE%84%E8%BF%81%E7%A7%BB/">
+                <span class="chip center-align waves-effect waves-light chip-default">路径迁移</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Linux/">
+                <span class="chip center-align waves-effect waves-light chip-default">Linux</span>
+            </a>
+            
+            
+            
+            <a href="/tags/%E5%BE%AA%E7%8E%AF%E6%95%B0%E7%BB%84/">
+                <span class="chip center-align waves-effect waves-light chip-default">循环数组</span>
+            </a>
+            
+            
+            
+            <a href="/tags/%E5%AE%B9%E5%99%A8%E8%AE%BE%E8%AE%A1/">
+                <span class="chip center-align waves-effect waves-light chip-default">容器设计</span>
+            </a>
+            
+            
+            
+            
+            
+            <a href="/tags/JetBrains-Gateway/">
+                <span class="chip center-align waves-effect waves-light chip-default">JetBrains Gateway</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Clash/">
+                <span class="chip center-align waves-effect waves-light chip-default">Clash</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Logseq/">
+                <span class="chip center-align waves-effect waves-light chip-default">Logseq</span>
+            </a>
+            
+            
+            
+            <a href="/tags/%E6%BA%90%E7%A0%81%E7%BC%96%E8%AF%91/">
+                <span class="chip center-align waves-effect waves-light chip-default">源码编译</span>
+            </a>
+            
+            
+            
+            <a href="/tags/VS-Code/">
+                <span class="chip center-align waves-effect waves-light chip-default">VS Code</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Remote-SSH/">
+                <span class="chip center-align waves-effect waves-light chip-default">Remote-SSH</span>
+            </a>
+            
+            
+            
+            <a href="/tags/%E4%BD%8D%E8%BF%90%E7%AE%97/">
+                <span class="chip center-align waves-effect waves-light chip-default">位运算</span>
+            </a>
+            
+            
+            
+            <a href="/tags/%E4%BA%8C%E8%BF%9B%E5%88%B6%E5%A4%84%E7%90%86/">
+                <span class="chip center-align waves-effect waves-light chip-default">二进制处理</span>
             </a>
             
             
@@ -1016,7 +1144,7 @@
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
             
-                <span id="year">2023-2024</span>
+                <span id="year">2023-2025</span>
             
             <a href="/about" target="_blank">Qian Tang</a>
             |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
@@ -1025,7 +1153,7 @@
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">5k</span>
+                        class="white-color">12.4k</span>
             
             
             
